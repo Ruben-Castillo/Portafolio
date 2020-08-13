@@ -1,0 +1,85 @@
+nav{
+    background-color: #660066;
+   
+}
+nav li a{
+    color:#ffffff;
+}
+
+main{
+    height: 737px;
+    background-image: url('../img/bg_hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.navbar-brand{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    font-size: 72px;
+    color:#ffffff;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    color:#ffffff;
+}
+h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color:#373A3C;
+    line-height: 45px;
+}
+.lorem-section p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#373A3C;
+    line-height: 40px
+}
+h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+    color:#373A3C;
+}
+.mi_experiencia h5{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color:#373A3C
+}
+.mi_experiencia h6{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color:#373A3C;
+}
+
+.fa-empire, .fa-medium-m{
+    font-size: 150px;
+    color:#660066;
+    
+}
+.bg-purple{
+    background-color: #660066;
+}
+footer p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color:#ffffff
+}
+footer i{
+    font-size: 45px;
+}
+font-family: 'Open Sans', sans-serif;
