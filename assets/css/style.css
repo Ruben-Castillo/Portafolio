@@ -1,7 +1,4 @@
-nav{
-    background-color: #660066;
    
-}
 nav li a{
     color:#ffffff;
 }
@@ -65,13 +62,13 @@ h3{
     color:#373A3C;
 }
 
-.fa-empire, .fa-medium-m{
+.fa-snowplow, .fa-plane{
     font-size: 150px;
-    color:#660066;
+    color:#325E68;
     
 }
 .bg-purple{
-    background-color: #660066;
+    background-color: #325E68;
 }
 footer p{
     font-family: 'Oswald', sans-serif;
@@ -82,4 +79,9 @@ footer p{
 footer i{
     font-size: 45px;
 }
+#contacto{
+    padding-top: 20vh; ;
+    padding-bottom: 20vh;
+}
+
 font-family: 'Open Sans', sans-serif;

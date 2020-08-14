@@ -5,7 +5,6 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Oswald:wght@200;400;600;700&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -15,25 +14,25 @@
   <body>
       
 <nav>
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-purple fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">M</a>
+            <a class="navbar-brand" href="#">R</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                <a class="nav-link" href="#">Sobre mí<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#sobre_mi">Sobre mí<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Experiencia</a>
+                <a class="nav-link" href="#mi_experiencia">Experiencia</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Trabajos</a>
+                <a class="nav-link" href="#trabajos">Trabajos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="#contacto">Contacto</a>
                 </li>
             </ul>
             </div>
@@ -44,12 +43,12 @@
     <div class="container main_text">
         <h2 class="text-center">YO SOY</h2>
         <hr>
-        <H1 class="text-center">MAGDALENA</H1>
+        <H1 class="text-center">RUBÉN DOTCOM</H1>
     </div>
 </main>
 
 <section>
-    <div class="container mt-5 mb-3 lorem-section d-none d-md-block">
+    <div id="sobre_mi" class="container mt-5 mb-3 lorem-section d-none d-md-block">
         <h4 class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.</h4>
         <hr>
         <div class="row">
@@ -64,25 +63,25 @@
 </section>
 
 <section>
-    <div class="container mi_experiencia my-5">
+    <div id="mi_experiencia" class="container mi_experiencia my-5">
         <h3 class="text-center">MI EXPERIENCIA</h3>
         <hr>
         <div class="row my-5">
             <div class="col-12 col-md-6 text-center">
-                <i class="fab fa-empire"></i>
-                <h5>Stormtrooper</h5>
-                <h6>1980 - 2014</h6>
+                <i class="fas fa-plane"></i>
+                <h5 class="mt-4">Nuevo Pudahuel</h5>
+                <h6>2018 - 2019</h6>
             </div>
             <div class="col-12 col-md-6 text-center">
-                <i class="fab fa-medium-m"></i>
-                <h5>Desarrolladora Rails</h5>
-                <h6>2014 - 2018</h6>
+                <i class="fas fa-snowplow"></i>
+                <h5 class="mt-4">Komatsu Cummins</h5>
+                <h6>2019 - 2020</h6>
             </div>
         </div>
     </div>
 </section>
 
-<section class="bg-purple container-fluid py-5">
+<section id="trabajos" class="bg-purple container-fluid py-5">
     <div class="container">
         <h3 class="text-white text-center">MIS ÚLTIMOS TRABAJOS</h3>
         <hr>
@@ -146,12 +145,12 @@
     </div>
 </section>
 
-<section>
+<section id="contacto">
     <h3 class="text-center mt-5">CONTACTO</h3>
     <hr>
     <p class="text-center">¿Quieres conocer más de mí?</p>
     <div class="d-flex justify-content-center">
-    <button type="button" class="btn btn-primary">Comenzar</button>
+        <a class="typeform-share button" href="https://form.typeform.com/to/FV2mG5jS" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#3A7685;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">¡Contáctame! </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
     </div>
 </section>
 
@@ -159,7 +158,7 @@
     <div class="container py-4">
         <div class="row">
             <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
-                <p>MAGDALENA</p>
+                <p>RUBÉN DOTCOM</p>
             </div>
             <div class="col-12 col-md-6 d-flex justify-content-center align-items-center text-white">
                 <i class="fab fa-github-square mx-2"></i>
