@@ -100,3 +100,6 @@ main hr{
     border: none;
     background: none;
 }
+#my_jobs .card-text, #my_jobs .card-title{
+    color:#373A3C;
+}
