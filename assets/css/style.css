@@ -4,14 +4,12 @@ nav li a{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
-
 main{
     height: 800px;
     background-image: url('../img/principal.JPG');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    
+    background-position: center; 
 }
 .navbar-brand{
     font-family: 'Oswald', sans-serif;
@@ -63,13 +61,11 @@ h3{
     font-size: 25px;
     color:#373A3C;
 }
-
 .fa-snowplow, .fa-plane{
     font-size: 150px;
     color:#325E68;
-    
 }
-.bg-purple{
+.bg-darkblue{
     background-color: #325E68;
 }
 footer a{
@@ -86,7 +82,7 @@ footer i{
     padding-bottom: 20vh;
 }
 main h1, main h2, main hr{
-  text-shadow: 2px 2px 6px ##373A3C;
+  text-shadow: 2px 2px 6px #373A3C;
 }
 main hr{
     border: 1px solid #ffffff;
