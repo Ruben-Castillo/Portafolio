@@ -1,11 +1,13 @@
    
 nav li a{
     color:#ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 }
 
 main{
-    height: 737px;
-    background-image: url('../img/bg_hero.png');
+    height: 800px;
+    background-image: url('../img/principal.JPG');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -49,13 +51,13 @@ h3{
     font-size: 52px;
     color:#373A3C;
 }
-.mi_experiencia h5{
+#my_experience h5{
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
     font-size: 25px;
     color:#373A3C
 }
-.mi_experiencia h6{
+#my_experience h6{
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 25px;
@@ -70,7 +72,7 @@ h3{
 .bg-purple{
     background-color: #325E68;
 }
-footer p{
+footer a{
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 40px;
@@ -79,9 +81,26 @@ footer p{
 footer i{
     font-size: 45px;
 }
-#contacto{
+#contact{
     padding-top: 20vh; ;
     padding-bottom: 20vh;
 }
-
-font-family: 'Open Sans', sans-serif;
+main h1, main h2, main hr{
+  text-shadow: 2px 2px 6px ##373A3C;
+}
+main hr{
+    border: 1px solid #ffffff;
+    width: 44%;
+}
+#about_me hr, #my_experience hr, #contact hr{
+    border: 1px solid #373A3C;
+    width: 15%;
+}
+#my_jobs hr{
+    border: 1px solid #ffffff;
+    width: 15%;
+}
+#my_experience button{
+    border: none;
+    background: none;
+}
